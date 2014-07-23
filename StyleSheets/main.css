@@ -1,0 +1,112 @@
+.photos{
+  height:450px;
+  border: 4px solid pink;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.photos:hover{
+  opacity: .5;
+}
+.travelphotos{
+  width: 100%;
+}
+.musicphotos{
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 4px solid pink;
+}
+.yogaphotos{
+  height: 450px;
+  border: 4px solid pink;
+}
+.main {
+  font-size:32px;
+  font-family:arial;
+  color:grey;
+  font-weight: lighter;
+  text-align: center;
+}
+.secondary{
+  font-size:18px;
+  font-family:arial;
+  color:grey;
+  font-weight: lighter;
+}
+.third{
+  font-size:18px;
+  font-family:arial;
+  color:grey;
+}
+.third ul{
+  margin: 0px;
+  padding: 0px;
+}
+.third li{
+  display: inline-block;
+  margin-left: 10px;
+}
+.third li a{
+  color: grey;
+  text-decoration: none;
+}
+.navbar{
+  float: right;
+  clear: both;
+}
+.container{
+  display: inline-block;
+}
+.extramusicpics{
+  height: 130px;
+  border: 2px solid pink;
+  float: left;
+  margin: 5px;
+}
+.footerimages{
+  margin-left:15px;
+  margin-right: 15px;
+  display: inline-block;
+}
+#avettfooter{
+  margin-left: 33px;
+}
+#shovelsfooter{
+  margin-left: 33px;
+}
+footer{
+  font-size:14px;
+  font-family:arial;
+  color: grey;
+  text-align: right;
+  clear: both;
+  font-weight: lighter;
+  padding: 10px;
+}
+header{
+  diplay: inline-block;
+  padding: 5px;
+  line-height: 5px;
+  text-align: center;
+}
+aside{
+  display:inline-block;
+  line-height: 5px;
+  width:45%;
+  margin: 15px;
+  padding: 15px;
+  border: 4px solid pink;
+  vertical-align: top;
+}
+nav{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+section{
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  padding: 5px;
+  border: 2px solid pink;
+}
