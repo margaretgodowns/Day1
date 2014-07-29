@@ -1,0 +1,107 @@
+body{
+  background-color: f8f8f8;
+}
+.photos{
+  height:450px;
+  border: 4px solid black;
+  margin: 5px;
+}
+.photos:hover{
+  opacity: .5;
+}
+.travelphotos{
+  width: 100%;
+  margin-top: 1%;
+}
+.musicphotos{
+  width: 100%;
+  text-align: center;
+  border: 4px solid black;
+}
+
+.main {
+  font-size:32px;
+  font-family:'PT Sans', sans-serif;
+  color:grey;
+  font-weight: lighter;
+  text-align: left;
+}
+.secondary{
+  font-size:18px;
+  font-family:'PT Sans', sans-serif;
+  color:grey;
+  font-weight: lighter;
+}
+.third{
+  font-size:18px;
+  font-family:'PT Sans', sans-serif;
+  color:grey;
+}
+.third ul{
+  margin: 0px;
+  padding: 0px;
+}
+.third li{
+  display: inline-block;
+  margin-left: 10px;
+}
+.third li a{
+  color: grey;
+  text-decoration: none;
+}
+.navbar{
+  float: right;
+  clear: both;
+}
+.container{
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+footer{
+  font-size:14px;
+  font-family:'PT Sans', sans-serif;
+  color: grey;
+  text-align: right;
+  clear: both;
+  font-weight: lighter;
+  padding: 10px;
+}
+header{
+  display: inline-block;
+  line-height: 5px;
+  text-align: center;
+}
+aside{
+  display:inline-block;
+  line-height: 5px;
+  width:48%;
+  // height: 350%;
+  padding: 2px;
+  border: 2px solid black;
+  vertical-align: top;
+}
+nav{
+  display: block;
+  text-align: center;
+}
+section{
+  display: inline-block;
+  width: 48%;
+  text-align: left;
+  vertical-align: top;
+  padding: 2px;
+  border: 2px solid black;
+}
+.artistheadline a{
+  position: relative;
+}
+.artistheadline a p{
+  position: absolute;
+  bottom: -70px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 4em;
+  color: black;
+}
