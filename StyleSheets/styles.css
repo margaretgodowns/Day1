@@ -1,5 +1,6 @@
 body {
-  background-color: f8f8f8; }
+  background-color: f8f8f8;
+  margin: 0 auto; }
 
 header {
   display: inline-block;
@@ -76,15 +77,24 @@ aside {
   position: relative; }
   .artistheadline a p {
     position: absolute;
-    bottom: -70px;
+    bottom: -65px;
     font-family: 'PT Sans', sans-serif;
     font-size: 4em;
-    color: black; }
+    color: white; }
 
 .musicphotos {
   width: 100%;
   text-align: center;
   border: 4px solid black; }
+
+.festivals {
+  display: inline-block; }
+
+.left-list {
+  list-style: none; }
+
+.right-list {
+  list-style: none; }
 
 footer {
   font-size: 14px;
@@ -109,4 +119,8 @@ footer {
   section {
     width: inherit; }
   aside {
-    width: inherit; } }
+    width: inherit; }
+  .artistheadline a p {
+    font-size: 2em;
+    bottom: -25px;
+    margin-left: 4px; } }

@@ -2,6 +2,7 @@ $font-stack: 'PT Sans', sans-serif;
 
 body{
   background-color: f8f8f8;
+  margin: 0 auto;
 }
 header{
   display: inline-block;
@@ -92,10 +93,10 @@ aside{
   position: relative;
   p{
     position: absolute;
-    bottom: -70px;
+    bottom: -65px;
     font-family: $font-stack;
     font-size: 4em;
-    color: black;
+    color: white;
     }
   }
 }
@@ -103,6 +104,15 @@ aside{
   width: 100%;
   text-align: center;
   border: 4px solid black;
+}
+.festivals{
+  display: inline-block;
+}
+.left-list{
+  list-style: none;
+}
+.right-list{
+  list-style: none;
 }
 footer{
   font-size:14px;
@@ -137,5 +147,10 @@ footer{
   }
   aside{
     width: inherit;
+  }
+  .artistheadline a p{
+    font-size: 2em;
+    bottom: -25px;
+    margin-left: 4px;
   }
 }
