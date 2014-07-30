@@ -103,4 +103,10 @@ footer {
   .navbar {
     display: inline; }
   footer {
-    text-align: center; } }
+    text-align: center; }
+  h1 {
+    text-align: left; }
+  section {
+    width: inherit; }
+  aside {
+    width: inherit; } }
