@@ -116,10 +116,7 @@ footer{
 
 // start break-point
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : portrait){
+@media all and (max-width: 640px){
   body{
     text-align: center;
   }
@@ -128,5 +125,8 @@ and (orientation : portrait){
   }
   .navbar{
     display: inline;
+  }
+  footer{
+    text-align: center;
   }
 }
